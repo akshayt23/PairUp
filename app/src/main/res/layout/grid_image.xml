@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.rubberduck.pairup.view.SquaredImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/iv_grid"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:longClickable="true"
+    android:paddingTop="0.5dp"
+    android:paddingBottom="0.5dp"
+    android:paddingLeft="0.5dp"
+    android:paddingRight="0.5dp"/>

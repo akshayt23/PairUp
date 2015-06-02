@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PairUp</string>
+    <string name="fb_app_id">975278449172964</string>
+    
+    <string name="title_activity_show_names">Offer Details</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_temp">Temp</string>
+
+    <string name="todays_pick">Today\'s Pick</string>
+    <string name="title_activity_offer_details">OfferDetailsActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="login_text">Log in with Facebook</string>
+    <string name="logout_text">Log Out</string>
+
+    <string name="no_shirts">Please add shirts to your wardrobe.</string>
+    <string name="no_trousers">Please add trousers to your wardrobe.</string>
+    <string name="no_pairs">Please add a pair to your wardrobe.</string>
+    <string name="no_favorites">You currently have no favorite pairs.</string>
+
+    <string name="drawer_item_today">Today</string>
+    <string name="drawer_item_favorites">Favorites</string>
+    <string name="drawer_item_wardrobe">Wardrobe</string>
+    <string name="drawer_item_section_header">Section Header</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_logout">Logout</string>
+
+    <string name="dialog_add_from">Add from</string>
+    <string name="dialog_camera">Camera</string>
+    <string name="dialog_gallery">Gallery</string>
+    <string name="dialog_delete_sure">Delete?</string>
+    <string name="dialog_positive">Yes</string>
+    <string name="dialog_negative">No</string>
+
+    <string name="prefs_shirt_id">ShirtId</string>
+    <string name="prefs_shirt_path">ShirtPath</string>
+    <string name="prefs_trouser_id">TrouserId</string>
+    <string name="prefs_trouser_path">TrouserPath</string>
+
+</resources>

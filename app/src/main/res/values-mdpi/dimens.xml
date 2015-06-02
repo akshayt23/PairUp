@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="image_height">190dp</dimen>
+</resources>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rubberduck.pairup.fragments.MainFragment">
+
+    <FrameLayout
+        android:id="@+id/fl_text_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/tv_todays_pick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/todays_pick"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="@dimen/sliding_slop"/>
+
+        <include
+            android:id="@+id/pair"
+            layout="@layout/pair"
+            android:layout_margin="@dimen/margin_short"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_no_pairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_pairs"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:visibility="gone" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        fab:fab_addButtonColorNormal="@color/accent"
+        fab:fab_addButtonColorPressed="@color/accent_pressed"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/FabMenuLabels">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_shirt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/primary"
+            fab:fab_colorPressed="@color/primary_light"
+            fab:fab_icon="@drawable/ic_shirt"
+            fab:fab_size="mini"
+            fab:fab_title="Shirt" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_trouser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/primary"
+            fab:fab_colorPressed="@color/primary_light"
+            fab:fab_icon="@drawable/ic_trouser"
+            fab:fab_size="mini"
+            fab:fab_title="Trouser" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
